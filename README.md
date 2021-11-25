@@ -1,14 +1,12 @@
-## IPFS NFT Minting Website
-Metis Deployment
+## How to run
 
-Node Version : >= 14.0
+1. Update ganache accounts private key in hardhat.config.js
+   Or you can register your network in hardhat.config.js
 
-# Command to Run frontend
+2. run 
+``` 
+npm install 
+npx hardhat run --network your_network_name .\scripts\deploy.js
+npm run build
+npm start
 ```
-yarn install
-yarn build
-yarn start
-```
-
-
-# Three.js integrated for 3D modeling
